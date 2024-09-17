@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
 
 @RunWith(MockitoJUnitRunner.class)
-public class LionTest extends TestCase {
+public class LionTest {
     private static final String MALE = "Самец";
     private static final String UNSUPPORTED_SEX = "unsupported sex";
     private static final String TEXT_EXCEPTION = "Используйте допустимые значения пола животного - самец или самка";

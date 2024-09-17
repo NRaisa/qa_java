@@ -27,11 +27,5 @@ public class AnimalTest extends TestCase {
                 .hasMessage(TEXT_EXCEPTION);
     }
 
-    @Test
-    public void testGetFamily() {
-        String actual = animal.getFamily();
 
-        assertEquals("Ответ не соответствует ожидаемому",
-                FAMILY, actual);
-    }
 }

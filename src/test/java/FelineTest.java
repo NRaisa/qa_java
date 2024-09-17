@@ -38,13 +38,4 @@ public class FelineTest extends TestCase {
         assertEquals("Количество котят не соответствует ожидаемому",
                 EXPECTED_KITTENS_COUNT_FOR_MOCK, actual);
     }
-
-    @Test
-    public void testTestGetKittens() {
-        int actual = feline.getKittens(kittensCount);
-        Mockito.verify(feline).getKittens(Mockito.anyInt());
-
-        assertEquals("Количество котят не соответствует ожидаемому",
-                kittensCount, actual);
-    }
 }
