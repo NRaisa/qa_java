@@ -26,6 +26,12 @@ public class AnimalTest extends TestCase {
                 .isInstanceOf(Exception.class)
                 .hasMessage(TEXT_EXCEPTION);
     }
+    @Test
+    public void testGetFamily() {
+        String actual = animal.getFamily();
 
+        assertEquals("Ответ не соответствует ожидаемому",
+                FAMILY, actual);
+    }
 
 }
