@@ -7,7 +7,7 @@ import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public class FelineTest extends TestCase {
+public class FelineTest {
     private final String expected = "Кошачьи";
     private static final int EXPECTED_KITTENS_COUNT_FOR_MOCK = 1;
 

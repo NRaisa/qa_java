@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.catchThrowable;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class AnimalTest extends TestCase {
+public class AnimalTest {
     private Animal animal;
     private static final String UNSUPPORTED_ANIMAL_KIND = "unsupported animal kind";
     private static final String TEXT_EXCEPTION = "Неизвестный вид животного, используйте значение Травоядное или Хищник";
