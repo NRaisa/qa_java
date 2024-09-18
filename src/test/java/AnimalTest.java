@@ -1,9 +1,9 @@
 import com.example.Animal;
-import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.catchThrowable;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
 
 
 public class AnimalTest {
